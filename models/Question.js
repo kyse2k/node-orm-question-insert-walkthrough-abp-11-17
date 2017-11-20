@@ -24,7 +24,7 @@ insert(){
         resolve("Row inserted!")
       })
     })
-}
+  }
 }
 
 module.exports = Question;
