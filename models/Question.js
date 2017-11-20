@@ -14,9 +14,9 @@ class Question{
     })
   }
 
-  constructor(content){
-    this.content = content
-  }
+constructor(content){
+  this.content = content
+}
 insert(){
   const sql = `INSERT INTO questions (content) VALUES (?)`
     return new Promise(function(resolve){
