@@ -17,7 +17,11 @@ class Question{
   constructor(content){
     this.content = content
   }
-
+insert(){
+  return new Promise(function(resolve){
+      resolve("This Does Nothing!")
+    })
+}
 }
 
 module.exports = Question;
